@@ -1,2 +1,2 @@
 # inline-block-project
-IT-SHATLE first project
+IT SHATLE first project
