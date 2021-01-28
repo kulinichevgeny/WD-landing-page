@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+		"Helvetica Neue", sans-serif;
+	font-size: 16px;
+	background-color: #eeeff1;
+}
+
+/* wrapper */
+.wrapper {
+	width: 100%;
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+/* header */
+.header {
+}
+
+.header-logo {
+}
+
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 57px 0 0 0;
+}
+
+/* navigation */
+.navigation {
+}
+.navigation-links {
+}
