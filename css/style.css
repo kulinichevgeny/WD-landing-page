@@ -3,6 +3,10 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
 		"Helvetica Neue", sans-serif;
 	font-size: 16px;
+	line-height: 26.25px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.1em;
 	background-color: #eeeff1;
 }
 
@@ -24,10 +28,23 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 57px 0 0 0;
+	align-items: center;
 }
 
 /* navigation */
 .navigation {
+	display: flex;
 }
+
 .navigation-links {
+	margin: 0 0 0 42px;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #000;
+}
+
+.navigation-links:first-child {
+	margin: 0;
+	color: #34547a;
 }
