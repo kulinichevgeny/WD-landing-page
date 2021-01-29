@@ -291,5 +291,32 @@ h2 {
 .work-video {
 	width: 1110px;
 	height: 600px;
-	background-image: url(/img/work-video.jpg);
+	background-image: url(/img/work/work-video.jpg);
+}
+
+/* portfolio
+============================================== */
+.portfolio {
+	height: 930px;
+	font-size: 0;
+	letter-spacing: 0;
+	line-height: 0;
+	padding-top: 30px;
+	background-color: #fff;
+}
+
+.portfolio-image:nth-child(odd) {
+	background-image: url(/img/portfolio/portfolio-1.png);
+	background-size: cover;
+	display: inline-block;
+	width: 25%;
+	height: 50%;
+}
+
+.portfolio-image:nth-child(even) {
+	background-image: url(/img/portfolio/portfolio-2.png);
+	background-size: cover;
+	display: inline-block;
+	width: 25%;
+	height: 50%;
 }
