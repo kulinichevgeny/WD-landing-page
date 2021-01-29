@@ -208,6 +208,7 @@ h2 {
 	min-width: 1110px;
 	height: 455px;
 	padding: 100px 0;
+	background: #fff;
 }
 
 .skills > .wrapper {
@@ -252,4 +253,43 @@ h2 {
 	line-height: 26px;
 	letter-spacing: normal;
 	color: #727272;
+	background: #fff;
+}
+
+/* how i work
+============================================ */
+.work {
+	background: #eeeff1;
+	padding: 90px 0;
+	min-width: 1110px;
+	height: 820px;
+}
+
+.work-content {
+	margin: 0 auto;
+}
+
+.work-content > p {
+	margin: 50px auto;
+	background: #eeeff1;
+	color: #727272;
+	letter-spacing: normal;
+	width: 540px;
+	text-align: center;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.work-video {
+	width: 1110px;
+	height: 600px;
+	background-image: url(/img/work-video.jpg);
 }
