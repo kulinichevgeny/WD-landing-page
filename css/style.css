@@ -320,3 +320,24 @@ h2 {
 	width: 25%;
 	height: 50%;
 }
+
+/* microsoft
+================================================ */
+.microsoft {
+	background: #fff;
+	min-width: 1110px;
+	height: 300px;
+}
+
+.microsoft-content {
+	margin: 90px 0 0 0;
+	display: inline-block;
+}
+
+.microsoft-content > img {
+	margin: 0 24px 0 0;
+}
+
+.microsoft-content > img:last-child {
+	margin: 0;
+}
