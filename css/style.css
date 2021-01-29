@@ -200,3 +200,56 @@ h2 {
 	font-size: 16px;
 	line-height: 26px;
 }
+
+/* skills
+============================================= */
+.skills {
+	margin: 0px auto;
+	min-width: 1110px;
+	height: 455px;
+	padding: 100px 0;
+}
+
+.skills > .wrapper {
+	vertical-align: middle;
+}
+
+.skills-photo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 555px;
+	height: 450px;
+	text-align: right;
+}
+
+.skills-photoshop {
+	margin: 0 0 30px 0;
+}
+
+.skills-photoshop:last-child {
+	margin: 0;
+}
+
+.skills-description {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+}
+
+.skills-description > h2 {
+	margin: 0 0 50px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	letter-spacing: normal;
+	text-align: left;
+}
+
+.skills-description > p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: normal;
+	color: #727272;
+}
