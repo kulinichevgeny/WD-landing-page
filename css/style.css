@@ -24,7 +24,6 @@ p {
 	width: 100%;
 	max-width: 1110px;
 	vertical-align: middle;
-	text-align: center;
 }
 
 /* header
@@ -127,6 +126,7 @@ p {
 .about {
 	background: #fff;
 	padding: 100px 0;
+	min-width: 1110px;
 }
 
 .about-content {
@@ -149,4 +149,54 @@ h2 {
 	text-align: center;
 	letter-spacing: normal;
 	color: #000000;
+}
+
+/* projects
+============================================= */
+.projects {
+	background: #34547a;
+	height: 150px;
+	padding-top: 100px;
+	min-width: 1110px;
+}
+
+.projects-container {
+	display: inline-block;
+	width: 140px;
+	margin-right: 48px;
+}
+.projects-container:last-child {
+	margin: 0;
+}
+
+.projects-logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.projects-description {
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.projects-description > h3 {
+	display: inline-block;
+	margin: 0;
+	color: #fff;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.projects-description > p {
+	display: inline-block;
+	background: #34547a;
+	color: #fff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
 }
