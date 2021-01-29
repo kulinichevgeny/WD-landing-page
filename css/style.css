@@ -36,7 +36,7 @@ p {
 .header-logo {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 390px 0 0;
+	margin: 0 380px 0 0;
 }
 
 .header-logo > img {
@@ -59,7 +59,7 @@ p {
 .navigation-links {
 	margin: 0 0 0 42px;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 500;
 	text-decoration: none;
 	color: #000;
 }
@@ -103,7 +103,9 @@ p {
 
 .intro-description > p {
 	margin: 60px 0 0 0;
+	font-size: 16px;
 	line-height: 26px;
+	letter-spacing: normal;
 	color: #727272;
 	text-align: left;
 }
@@ -118,4 +120,33 @@ p {
 	margin: 60px 0 0 0;
 	text-align: center;
 	line-height: 65px;
+}
+
+/* about me
+=========================================== */
+.about {
+	background: #fff;
+	padding: 100px 0;
+}
+
+.about-content {
+	margin: 0 auto;
+	width: 540px;
+}
+
+.about-content > p {
+	margin: 50px 0 0 0;
+	background: #fff;
+	color: #727272;
+	letter-spacing: normal;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: normal;
+	color: #000000;
 }
