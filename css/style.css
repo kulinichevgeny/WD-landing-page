@@ -17,6 +17,11 @@ p {
 	background-color: #eeeff1;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 /* wrapper
 ======================================== */
 .wrapper {
@@ -37,7 +42,6 @@ p {
 	vertical-align: middle;
 	margin: 0 380px 0 0;
 }
-
 .header-logo > img {
 	width: 96px;
 	height: 60px;
@@ -109,7 +113,7 @@ p {
 	text-align: left;
 }
 
-.intro-button {
+.intro-description .button {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -132,6 +136,7 @@ p {
 .about-content {
 	margin: 0 auto;
 	width: 540px;
+	text-align: center;
 }
 
 .about-content > p {
@@ -339,5 +344,134 @@ h2 {
 }
 
 .microsoft-content > img:last-child {
+	margin: 0;
+}
+
+/* web
+============================================= */
+.web {
+	background: #eeeff1;
+	min-width: 1110px;
+	height: 650px;
+}
+
+.web-content {
+	margin: 50px auto 0;
+	width: 540px;
+	text-align: center;
+}
+
+.web-content > p {
+	margin: 50px 0 65px 0;
+	background: #eeeff1;
+	color: #727272;
+	letter-spacing: normal;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.web-personal {
+	display: inline-block;
+	text-align: center;
+}
+
+.web-content > div:nth-child(odd) {
+	margin-right: 30px;
+}
+
+.web-personal > input {
+	border: 0;
+	width: 232px;
+	height: 50px;
+	padding: 0 0 0 20px;
+}
+
+.web-message {
+	display: block;
+	margin: 20px 0 50px 0;
+	width: 519px;
+	height: 175px;
+	text-align: top;
+	border: 0;
+	padding-left: 20px;
+}
+
+.web-content .button {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #34547a;
+
+	width: 190px;
+	height: 55px;
+	margin: 0;
+	padding-bottom: 10px;
+
+	color: #fff;
+	text-align: center;
+	line-height: 65px;
+	text-transform: uppercase;
+}
+
+/* footer
+========================================= */
+.footer {
+	min-width: 1110px;
+	padding: 50px 0 0 0;
+	height: 100px;
+	background: #34547a;
+}
+
+.footer .wrapper {
+	vertical-align: middle;
+}
+
+.footer-content {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.footer-content > h3 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: #ffffff;
+	margin: 0 765px 0 0;
+}
+
+.footer-content > p {
+	background: #34547a;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	color: #ffffff;
+	margin: 20px 0 0 0;
+}
+
+.footer-vk {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.vk-logo {
+	display: inline-block;
+}
+
+.footer-vk > a {
+	width: auto;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.footer-vk > a:first-child {
 	margin: 0;
 }
