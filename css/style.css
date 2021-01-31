@@ -142,10 +142,16 @@ h3 {
 
 	color: #fff;
 	background-color: #34547a;
+	border-radius: 2px;
 
 	text-align: center;
 	letter-spacing: 0.1em;
 	line-height: 65px;
+}
+
+.intro-description .button:hover {
+	background-color: #2f4b6e;
+	transition: 0.1s linear;
 }
 
 /* about me
@@ -358,6 +364,7 @@ h3 {
 	width: 232px;
 	height: 50px;
 	padding: 0 0 0 20px;
+	border-radius: 2px;
 }
 
 .web-message {
@@ -369,12 +376,14 @@ h3 {
 
 	text-align: top;
 	border: 0;
+	border-radius: 2px;
 }
 
 .web-content .button {
 	display: inline-block;
 	text-decoration: none;
 	background: #34547a;
+	border-radius: 2px;
 
 	width: 190px;
 	height: 55px;
@@ -386,6 +395,11 @@ h3 {
 	line-height: 65px;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
+}
+
+.web-content .button:hover {
+	background-color: #2f4b6e;
+	transition: 0.1s linear;
 }
 
 /* footer
