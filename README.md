@@ -2,15 +2,13 @@
 
 ![Landing Page Preview](/img/readme/preview.png)
 
----
-
 ## About
 
-This is the first IT SHATLE homework. A simple inline-block project. You can find [layout](https://www.figma.com/file/YsfjeAFFHecZ8KV8AMDu7t0J/Templates-3.-More-on-Figma.info) here.
+This is the first IT SHATLE homework. A simple inline-block project. You can find [layout](https://www.figma.com/file/YsfjeAFFHecZ8KV8AMDu7t0J/Templates-3.-More-on-Figma.info) here
 
 ## Questions?
 
-Have a bug or an issue with this project? [Open a new issue](https://github.com/kulinichevgeny/inline-block-project/issues/new) here on GitHub.
+Have a bug or an issue with this project? [Open a new issue](https://github.com/kulinichevgeny/inline-block-project/issues/new) here on GitHub
 
 ## Developer
 
