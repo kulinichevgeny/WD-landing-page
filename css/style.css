@@ -46,6 +46,13 @@ h3 {
 	line-height: 25px;
 }
 
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
 /* wrapper
 ========================================= */
 .wrapper {
@@ -86,7 +93,10 @@ h3 {
 
 .navigation-links {
 	margin: 0 0 0 42px;
+	display: inline-block;
+}
 
+.navigation-links > a {
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
@@ -99,7 +109,7 @@ h3 {
 	margin: 0;
 }
 
-.navigation-links:hover {
+.navigation-links > a:hover {
 	opacity: 0.9;
 	color: #34547a;
 	transition: 0.1s linear;
