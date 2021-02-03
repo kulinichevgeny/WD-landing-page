@@ -43,6 +43,9 @@ h3 {
 	font-size: 21px;
 	font-style: normal;
 	line-height: 25px;
+
+	color: #fff;
+	margin: 0 765px 0 0;
 }
 
 ul,
@@ -448,15 +451,12 @@ figure:hover figcaption {
 	vertical-align: middle;
 }
 
-.footer-content > h3 {
-	color: #ffffff;
-	margin: 0 765px 0 0;
-}
-
 .footer-content > p {
 	background: #34547a;
 	color: #ffffff;
 	margin: 20px 0 0 0;
+	font-size: 13px;
+	line-height: 21px;
 }
 
 .footer-vk {
