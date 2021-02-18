@@ -1,10 +1,10 @@
-# 	Inline-Block Project - Landing Page
+# 	WD-landing-page - Landing Page
 
 ![Landing Page Preview](/img/readme/preview.png)
 
 ## About
 
-This is the first IT SHATLE homework. A simple inline-block project. You can find [layout](https://www.figma.com/file/YsfjeAFFHecZ8KV8AMDu7t0J/Templates-3.-More-on-Figma.info) here
+This is the first IT SHATLE homework. You can find [layout](https://www.figma.com/file/YsfjeAFFHecZ8KV8AMDu7t0J/Templates-3.-More-on-Figma.info) here
 
 ## Questions?
 
